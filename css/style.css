@@ -1,41 +1,41 @@
 body {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/bg-sky.png);
+  background: url(../images/bg-sky.png);
   background-repeat: repeat !important;
   background-attachment: fixed;
 }
 
 ul.rel-results {
-  list-style-type: circle;
+  list-style-type:circle;
 }
 
 .nojs {
-  padding: 2px;
-  padding-left: 6px;
-  margin-bottom: 5px;
-  background: #ff0000;
-  color: #ffffff;
-  font-size: 15px;
-  border: 1px solid #ff0000;
-  border-radius: 5px;
+  padding:2px;
+  padding-left:6px;
+  margin-bottom:5px;
+  background:#ff0000;
+  color:#ffffff;
+  font-size:15px;
+  border:1px solid #ff0000;
+  border-radius:5px;
 }
 
 .outerdiv {
-  margin-top: 60px;
+  margin-top:60px;
 }
 
 .span-style {
-  font-size: 17px;
+  font-size:17px;
 }
 
 .search-bar {
-  width: 100%;
-  max-width: 500px;
+  width:100%;
+  max-width:500px;
   margin-bottom: 25px;
 }
 
 .bar-style {
   background: #337AB7;
-  color: rgb(250, 250, 250);
+  color: rgb(250,250,250);
 }
 
 .related-results {
@@ -44,7 +44,7 @@ ul.rel-results {
 }
 
 .movie-poster {
-  float: left;
+  float:left;
   width: 150px;
   margin-right: 10px;
   -moz-animation-delay: 1s;
@@ -52,7 +52,7 @@ ul.rel-results {
 }
 
 .span-outer {
-  font-size: 20px;
+  font-size:20px;
 }
 
 .outer-p {
@@ -60,7 +60,7 @@ ul.rel-results {
 }
 
 .inner-p {
-  margin: 2px;
+  margin:2px;
 }
 
 .outer-p-2 {
@@ -71,16 +71,10 @@ ul.rel-results {
   margin-top: 15px;
 }
 
-.divider {
+.divider{
   margin: 0 8px 0 8px;
 }
 
 .divider:before {
   content: "|";
-}
-
-@media (max-width: 850px) {
-  .related-results {
-    display: none;
-  }
 }
