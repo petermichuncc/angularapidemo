@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', [])
+angular.module('myApp', ['ngMaterial'])
   .controller('MovieController', function($scope, $http){
     $scope.$watch('search', function() {
       fetch();
